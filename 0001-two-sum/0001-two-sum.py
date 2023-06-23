@@ -3,7 +3,7 @@ class Solution:
         # Create a hash table to store the elements and their indices
         hash_table = {}
         
-        # Iterate through the array
+        # Iterate through the array.
         for i in range(len(nums)):
             complement = target - nums[i]
             
